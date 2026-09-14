@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d0d0d; /* רקע שחור-פחם עמוק */
+  color: #00ffcc; /* טקסט בצבע תכלת-ניאון זוהר */
+  font-family: 'Courier New', Courier, monospace; /* פונט שמזכיר כתיבת קוד */
+}
