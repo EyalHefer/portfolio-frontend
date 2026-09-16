@@ -22,7 +22,7 @@ function ContactSection() {
     e.preventDefault(); // מונע מהדף להתרענן אוטומטית
     
     // שליחת בקשת POST לשרת שלנו 
-    axios.post('https://portfolio-backend-r6vr.onrender.com/api/contact', formData)
+    axios.post('https://formspree.io/f/xoevaypy', formData)
       .then(response => {
         setStatusMessage('Message sent successfully! 🚀');
         setFormData({ name: '', email: '', content: '' }); // איפוס הטופס
