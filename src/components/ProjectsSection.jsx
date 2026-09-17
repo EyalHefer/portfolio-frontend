@@ -1,11 +1,17 @@
 function ProjectsSection() {
-  // רשימת הפרויקטים שלנו שמורה עכשיו ישירות בקוד (Hardcoded)
   const projects = [
     {
       name: "My Futuristic Website",
       description: "My very first Full-Stack project! Built entirely from scratch with React, Node.js, and MongoDB.",
-      technologies: ["React", "Node.js", "MongoDB"],
+      toolsAndSkills: ["React", "Node.js", "Web Development"],
       githubLink: "https://github.com/eyal/my-project"
+    },
+    
+    {
+      name: "Cherry-picking-restoration",
+      description: "Analyzed and implemented complex cherry-picking algorithms based on theoretical research from an academic paper. Successfully converted advanced data management concepts into efficient code, demonstrating high-level problem-solving and independent research skills.",
+      toolsAndSkills: ["Python", "Github", "Algoritmic Thinking"], 
+      githubLink: "https://github.com/eyal/your-new-repo" 
     }
   ];
 
@@ -23,6 +29,19 @@ function ProjectsSection() {
           }}>
             <h3 style={{ marginTop: '0' }}>{project.name}</h3>
             <p>{project.description}</p>
+            {/* אפשר גם להוסיף את הקישור לגיטהאב ככפתור קטן אם תרצה */}
+            <p style={{ fontSize: '14px', color: '#ccc' }}>
+              <strong style={{ color: '#00ffcc' }}>Tools & Skills:</strong> {project.toolsAndSkills.join(', ')}
+            </p>
+
+            <a 
+              href={project.githubLink} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ color: '#00ffcc', textDecoration: 'none', fontSize: '14px' }}
+            >
+              View on GitHub
+            </a>
           </div>
         ))}
       </div>
