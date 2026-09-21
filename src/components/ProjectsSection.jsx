@@ -4,14 +4,14 @@ function ProjectsSection() {
       name: "My Futuristic Website",
       description: "My very first Full-Stack project! Built entirely from scratch with React, Node.js, and MongoDB.",
       toolsAndSkills: ["React", "Node.js", "Web Development"],
-      githubLink: "https://github.com/eyal/my-project"
+      githubLink: "https://github.com/EyalHefer/portfolio-frontend"
     },
     
     {
       name: "Cherry-picking-restoration",
       description: "Analyzed and implemented complex cherry-picking algorithms based on theoretical research from an academic paper. Successfully converted advanced data management concepts into efficient code, demonstrating high-level problem-solving and independent research skills.",
       toolsAndSkills: ["Python", "Github", "Algoritmic Thinking"], 
-      githubLink: "https://github.com/eyal/your-new-repo" 
+      githubLink: "https://github.com/EyalHefer/cherry-picking-restoration" 
     }
   ];
 
