@@ -12,6 +12,13 @@ function ProjectsSection() {
       description: "Analyzed and implemented complex cherry-picking algorithms based on theoretical research from an academic paper. Successfully converted advanced data management concepts into efficient code, demonstrating high-level problem-solving and independent research skills.",
       toolsAndSkills: ["Python", "Github", "Algoritmic Thinking"], 
       githubLink: "https://github.com/EyalHefer/cherry-picking-restoration" 
+    },
+
+    {
+      name: "Calorie-Tracker",
+      description: "Built a calorie tracker PWA where users describe meals in natural language and Google Gemini estimates calories. Vanilla JavaScript, Cloudflare Workers, offline support.",
+      toolsAndSkills: ["Vanilla JavaScript", "Cloudflare Workers", "Web Development", "Claude Code", "Gemini API"], 
+      githubLink: "https://github.com/EyalHefer/calorie-tracker" 
     }
   ];
 
@@ -29,7 +36,6 @@ function ProjectsSection() {
           }}>
             <h3 style={{ marginTop: '0' }}>{project.name}</h3>
             <p>{project.description}</p>
-            {/* אפשר גם להוסיף את הקישור לגיטהאב ככפתור קטן אם תרצה */}
             <p style={{ fontSize: '14px', color: '#ccc' }}>
               <strong style={{ color: '#00ffcc' }}>Tools & Skills:</strong> {project.toolsAndSkills.join(', ')}
             </p>
