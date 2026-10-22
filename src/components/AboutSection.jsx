@@ -9,7 +9,7 @@ function AboutSection() {
       
       <div style={{ display: 'flex', justifyContent: 'center', gap: '15px' }}>
         <a 
-          href="Eyal Hefer CV Junior..pdf" 
+          href="Eyal Hefer CV's.pdf" 
           target="_blank" 
           rel="noopener noreferrer"
           style={{ padding: '10px 20px', backgroundColor: '#00ffcc', color: '#000', textDecoration: 'none', fontWeight: 'bold', borderRadius: '4px' }}
