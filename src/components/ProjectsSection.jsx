@@ -16,7 +16,7 @@ function ProjectsSection() {
 
     {
       name: "Calorie-Tracker",
-      description: "Built a calorie tracker PWA where users describe meals in natural language and Google Gemini estimates calories. Vanilla JavaScript, Cloudflare Workers, offline support.",
+      description: "Built a Calorie tracker PWA. Users describe meals in natural language, Google Gemini estimates calories and protein, and the app generates smart meal recommendations to hit remaining daily targets. Weekly charts track goals. Vanilla JavaScript, Cloudflare Workers, works offline.",
       toolsAndSkills: ["Vanilla JavaScript", "Cloudflare Workers", "Web Development", "Claude Code", "Gemini API"], 
       githubLink: "https://github.com/EyalHefer/calorie-tracker" 
     }
